@@ -169,11 +169,37 @@ img{
         width: 200px;
     }
     .img_header{
-    max-width: 70%;
-    margin-top: 20px;}    
+        max-width: 70%;
+        margin-top: 20px;}    
 }
 /* MOBILE */
 @media (max-width: 425px) {
+    h1{
+        font-size: 100px;
+    }
+   
+    .header_conteiner{
+        display: block;
+        margin: 0 auto;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .header_text{
+        margin-top: 10px;
+    }
+    .about, .about_text, button{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer_conteiner {
+        padding: 0 10px;
+    }
+    .button {
+        width: 150px;
+    }
+    .img_header{
+        max-width: 80%;
+        margin-top: 10px;}  
   }
 
 
