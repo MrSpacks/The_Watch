@@ -71,9 +71,8 @@ button{
     justify-content: right;
 }
 .img_header{
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;}
+    max-width: 80%;
+    object-fit: contain;}
 
 /*MAIN*/
 img{
@@ -195,11 +194,16 @@ img{
         padding: 0 10px;
     }
     .button {
+    
         width: 150px;
+        font-size: 24px;
     }
     .img_header{
         max-width: 80%;
         margin-top: 10px;}  
+    .card_p, .main_h3, .footer_p, .header_text, .about_text{
+        font-size: 16px;
+    }
   }
 
 
