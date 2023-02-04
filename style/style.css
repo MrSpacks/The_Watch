@@ -55,7 +55,7 @@ button{
     display: flex;
     font-size: 32px;
     border: none;
-    justify-content: space-between;
+    justify-content: left;
     height: 82px;
     margin-bottom: 100px;
 }
@@ -68,7 +68,7 @@ button{
 .price {
     height: 100%;
     width: 143px;
-
+    justify-content: right;
 }
 .img_header{
     max-width: 100%;
