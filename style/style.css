@@ -194,9 +194,13 @@ img{
         padding: 0 10px;
     }
     .button {
-    
         width: 150px;
-        font-size: 24px;
+        font-size: 16px;
+    }
+    .price{
+        width: 60px;
+        font-size: 16px;
+        height:60px;
     }
     .img_header{
         max-width: 80%;
