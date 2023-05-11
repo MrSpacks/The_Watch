@@ -51,6 +51,7 @@ h1{
     transition: 0.3s;
 }
 button{
+    padding: 0;
     line-height: 82px;
     display: flex;
     font-size: 32px;
@@ -174,6 +175,7 @@ img{
 /* MOBILE */
 @media (max-width: 425px) {
     h1{
+        margin-top: 25px;
         font-size: 100px;
     }
    
@@ -192,6 +194,9 @@ img{
     }
     .footer_conteiner {
         padding: 0 10px;
+    }
+    button{
+        margin-top: 10px;
     }
     .button {
         width: 150px;
