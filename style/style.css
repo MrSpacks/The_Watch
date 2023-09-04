@@ -24,7 +24,7 @@ header{
     background: #F8F8F8;
 }
 .header_conteiner{
-    padding: 0 30px;
+    padding: 0 10vw;
     margin: 0 auto;
     max-width: 1440px;
     display: flex;
@@ -52,24 +52,29 @@ h1{
 }
 button{
     padding: 0;
-    line-height: 82px;
     display: flex;
     font-size: 32px;
     border: none;
-    justify-content: left;
-    height: 82px;
     margin-bottom: 100px;
+    width: 400px;
+    border-radius: 8px;
 }
 .button {
-    height: 100%;
-    width: 278px;
+    display: flex;
+    height: 82px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
     background: #000;
     color: white;
+    border-radius: 8px 0px 0px 8px;
 }
 .price {
-    height: 100%;
-    width: 143px;
-    justify-content: right;
+    display: flex;
+    height: 82px;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
 }
 .img_header{
     max-width: 80%;
@@ -80,7 +85,6 @@ img{
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-
 }
 
 .main_conteiner{
@@ -133,7 +137,7 @@ img{
 
 .footer_p {
     margin-top: 50px;
-    font-size: 24px;
+    font-size: 24px ;
     margin-bottom: 50px;
 }
 
@@ -197,15 +201,17 @@ img{
     }
     button{
         margin-top: 10px;
+        width: 150px;
+
     }
     .button {
-        width: 150px;
-        font-size: 16px;
+        height: 45px ;
+        font-size: 14px;
     }
     .price{
         width: 60px;
-        font-size: 16px;
-        height:60px;
+        font-size: 12px;
+        height:45px;
     }
     .img_header{
         max-width: 80%;
